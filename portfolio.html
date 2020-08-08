@@ -10,7 +10,7 @@
   </head>
   <body>
       <!-- Шапка страницы -->
-        <header class="page-header">
+        <header class="page-header border">
             <div class="container flexbox">
                 <nav class="main-nav">       
                     <a href="./index.html" class="logo"> <span class="logo-word">Web</span> Studio
@@ -24,8 +24,22 @@
                 </nav>
 
                 <ul class="contact-nav list">
-                    <li class="item"><a href="mailto:info@devstudio.com" class="contact-link" >info@devstudio.com</a></li>
-                    <li class="item"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+                    <li class="item contact-item">
+                        <a href="mailto:info@devstudio.com" class="contact-link">
+                          <svg class="contacts-icon" width="16" height="12">
+                            <use href="./images/sprite.svg#envelope"></use>
+                          </svg>
+                          info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="item contact-item">
+                        <a href="tel:+380961111111" class="contact-link">
+                          <svg class="contacts-icon" width="10" height="16">
+                            <use href="./images/sprite.svg#mf"></use>
+                          </svg>
+                          +38 096 111 11 11
+                        </a>
+                    </li>
                 </ul>
             </div>
         </header>
@@ -189,10 +203,34 @@
                 <div class="footer-link">
                     <p class="footer-title">Присоединяйтесь</p>
                     <ul class="link-items list">
-                        <li class="item-link"><a href="" aria-label="Ссылка на Instagram " class="list-link">Instagram</a></li>
-                        <li class="item-link"><a href="" aria-label="Ссылка на Twitter " class="list-link">Twitter</a></li>
-                        <li class="item-link"><a href="" aria-label="Ссылка на Facebook " class="list-link">Facebook</a></li>
-                        <li class="item-link"><a href="" aria-label="Ссылка на Linkedin " class="list-link">Linkedin</a></li>
+                        <li class="item-link">
+                            <a href="https://www.instagram.com/" class="list-link-footer" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Instagram">
+                                <svg class="social-icon-footer" width="20" height="20">
+                                    <use href="./images/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="item-link">
+                            <a href="https://twitter.com/" class="list-link-footer" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter ">
+                                <svg class="social-icon-footer" width="20" height="20">
+                                    <use href="./images/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="item-link">
+                            <a href="https://facebook.com/" class="list-link-footer" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter ">
+                                <svg class="social-icon-footer" width="20" height="20">
+                                    <use href="./images/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="item-link">
+                            <a href="https://linkedin.com/" class="list-link-footer" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter ">
+                                <svg class="social-icon-footer" width="20" height="20">
+                                    <use href="./images/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="join">
